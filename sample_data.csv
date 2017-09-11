@@ -1,0 +1,16 @@
+flow,ip
+flow,port
+flow,protocol
+flow,bytes
+firewall,ip
+firewall,port
+firewall,protocol
+pcap,ip
+pcap,port
+pcap,protocol
+proxy,ip
+proxy,port
+proxy,http_status
+proxy,http_method
+proxy,uri
+proxy,user_agent

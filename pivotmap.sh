@@ -2,7 +2,8 @@
 
 genmap () {
 
-sed '1 s/^/source,target,value\n/' >> temp.test
+sed '1 s/^/source,target\
+/' >> temp.test
 
 sed '/dataplaceholder/{
     s/dataplaceholder//g
